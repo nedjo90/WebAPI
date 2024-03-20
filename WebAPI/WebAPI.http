@@ -1,6 +1,16 @@
-@WebAPI_HostAddress = http://localhost:5253
+POST /api/shirts HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.37.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 6888d88a-57c7-4dd5-be66-5642d7a3f08c
+Host: localhost:5253
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 20
 
-GET {{WebAPI_HostAddress}}/weatherforecast/
-Accept: application/json
+{
+  "ShirtId": 1
+}
 
 ###
